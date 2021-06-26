@@ -90,18 +90,18 @@ for (let count = 1; count <= repetitionsQty; count = count + 1) {
 // Resultado del Juego (considera el resultado de todas las partidas)
 
 if (userScore > machineScore) {
-  document.write(`<br><br>¡Felicitaciones! has ganado la partida :)<br>`);
+  document.write(`<br><br>¡Felicitaciones! has ganado el juego :)<br>`);
   document.write(
-    `El resultado de la partida es: Usuario ${userScore} - ${machineScore} Máquina`
+    `El resultado del juego es: Usuario ${userScore} - ${machineScore} Máquina`
   );
 } else if (userScore === machineScore) {
-  document.write(`<br><br>¡La partida termina en empate!<br>`);
+  document.write(`<br><br>¡El juego ha terminado en empate!<br>`);
   document.write(
-    `El resultado de la partida es: Usuario ${userScore} - ${machineScore} Máquina`
+    `El resultado del juego es: Usuario ${userScore} - ${machineScore} Máquina`
   );
 } else {
   document.write(`<br><br>¡Lo siento! la Máquina te ha ganado :(<br>`);
   document.write(
-    `El resultado de la partida es: Usuario ${userScore} - ${machineScore} Máquina`
+    `El resultado del juego es: Usuario ${userScore} - ${machineScore} Máquina`
   );
 }
