@@ -1,3 +1,5 @@
+// Desafío Cachipún Contra la Máquina
+
 let userScore = 0; // Guardará las partidas ganadas por el usuario
 let machineScore = 0; // Guardará las partidas ganadas por la máquina
 const repetitions = prompt("Ingrese la cantidad de partidas que desea jugar:");
